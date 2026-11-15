@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LikeDent — стоматологія у Львові на Хімічній, 22</title>
+<meta name="description" content="Стоматологія LikeDent у Львові: лікування, гігієна, протезування, хірургія. вул. Хімічна, 22. Запис за телефоном 097 110 0803.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F6FBFA;--ink:#0C2F36;--mut:#46666C;--brand:#0A7B86;--on:#fff;--mint:#DDF3EE;--sun:#FFD166;--card:#fff;--line:#CDE4E0;--r:22px;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#08191D;--ink:#E6F4F2;--mut:#9DBDBD;--brand:#3CC5CF;--on:#04161A;--mint:#0F2E33;--card:#0D2429;--line:#1D3F45;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#08191D;--ink:#E6F4F2;--mut:#9DBDBD;--brand:#3CC5CF;--on:#04161A;--mint:#0F2E33;--card:#0D2429;--line:#1D3F45;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 72px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Onest,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+h1,h2,h3{font-family:Unbounded,Onest,system-ui,sans-serif;line-height:1.12;margin:0;letter-spacing:-.01em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--brand);outline-offset:3px;border-radius:8px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:11;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;gap:22px;height:64px}
+.logo{font:700 20px Unbounded,sans-serif;text-decoration:none;display:flex;align-items:center;gap:9px}
+.logo i{width:30px;height:30px;border-radius:10px;background:var(--brand);display:grid;place-items:center}
+.logo svg{width:17px;height:17px;fill:var(--on)}
+nav{margin-left:auto;display:flex;gap:24px;font-weight:500}
+nav a{text-decoration:none;color:var(--mut)}nav a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--brand);color:var(--on);font:600 16px Onest,sans-serif;padding:14px 24px;border-radius:99px;text-decoration:none;border:0;cursor:pointer;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 2px var(--line)}
+.nav .btn{padding:10px 18px;font-size:15px}
+.hero{padding:56px 0 72px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:9px;background:var(--mint);padding:7px 14px;border-radius:99px;font-size:15px;font-weight:500}
+.dot{width:9px;height:9px;border-radius:50%;background:#e0705a}.dot.on{background:#27b36a}
+h1{font-size:clamp(34px,5.4vw,60px);margin:22px 0 18px}
+.lead{font-size:19px;color:var(--mut);max-width:30em;margin:0 0 30px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.smile{position:relative;background:var(--mint);border-radius:44px;aspect-ratio:1/1;display:grid;place-items:center;overflow:hidden}
+.smile svg{width:86%}
+.teeth rect{transform-box:fill-box;transform-origin:center top;animation:pop .5s cubic-bezier(.3,1.5,.5,1) both}
+@keyframes pop{from{transform:scaleY(0);opacity:0}}
+.chip{position:absolute;background:var(--card);border-radius:18px;padding:12px 16px;box-shadow:0 10px 30px -12px rgba(8,40,48,.35);font-size:14px;line-height:1.3}
+.chip b{display:block;font:700 22px Unbounded,sans-serif}
+.c1{left:6%;bottom:8%}.c2{right:6%;top:8%}
+.stars{color:#E8A400;letter-spacing:2px}
+section{padding:72px 0}
+.sec-h{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:36px;flex-wrap:wrap}
+h2{font-size:clamp(26px,3.6vw,40px);max-width:16em}
+.sec-h p{color:var(--mut);max-width:26em;margin:0}
+.svc{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.svc li{display:grid;grid-template-columns:64px 1fr 1.3fr;gap:20px;align-items:center;padding:26px 4px;border-bottom:1px solid var(--line)}
+.svc .ic{width:52px;height:52px;border-radius:16px;background:var(--mint);display:grid;place-items:center}
+.svc svg{width:26px;height:26px;stroke:var(--brand);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.svc h3{font-size:20px}.svc p{margin:0;color:var(--mut)}
+.band{background:var(--ink);color:var(--bg);border-radius:36px;padding:48px;display:grid;grid-template-columns:auto 1fr;gap:48px;align-items:center}
+.band .big{font:700 clamp(64px,9vw,104px)/1 Unbounded,sans-serif;color:var(--sun)}
+.band ul{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:14px 32px}
+.band li{padding-left:26px;position:relative}
+.band li::before{content:"";position:absolute;left:0;top:.55em;width:12px;height:7px;border-left:2.5px solid var(--sun);border-bottom:2.5px solid var(--sun);transform:rotate(-45deg)}
+.band small{display:block;opacity:.75;margin-top:6px}
+.rev{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+blockquote{margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:30px}
+blockquote p{margin:12px 0 18px;font-size:18px}
+blockquote cite{font-style:normal;color:var(--mut);font-size:15px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:30px}
+.row{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}.row:last-of-type{border:0}
+.row span{color:var(--mut);min-width:84px}
+.row a{font-weight:600}
+.map{margin-top:18px;border-radius:16px;height:150px;overflow:hidden;position:relative;background:var(--mint);display:block;text-decoration:none}
+.map svg{width:100%;height:100%}
+.map em{position:absolute;left:14px;bottom:12px;background:var(--card);padding:7px 14px;border-radius:99px;font-style:normal;font-weight:600;font-size:14px}
+form{display:grid;gap:14px;margin-top:20px}
+label{font-weight:500;font-size:15px;display:grid;gap:6px}
+input,select{font:inherit;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:14px;padding:13px 15px;width:100%}
+input:focus,select:focus{outline:3px solid var(--brand);outline-offset:1px}
+.ok{display:none;background:var(--mint);border-radius:14px;padding:16px;font-weight:500}
+footer{padding:32px 0 100px;color:var(--mut);font-size:14px;border-top:1px solid var(--line)}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.fab{display:none;position:fixed;left:16px;right:16px;bottom:calc(env(safe-area-inset-bottom,0px) + 14px);z-index:12;justify-content:center;box-shadow:0 12px 30px -8px rgba(0,0,0,.4)}
+@media (max-width:860px){
+ nav{display:none}.nav .btn{margin-left:auto}
+ .hero .wrap,.contact,.rev{grid-template-columns:1fr}
+ .smile{max-width:460px}
+ .svc li{grid-template-columns:52px 1fr;gap:6px 16px}.svc p{grid-column:2}
+ .band{grid-template-columns:1fr;padding:32px 26px;gap:24px}.band ul{grid-template-columns:1fr}
+ .fab{display:inline-flex}
+}
+@media (prefers-reduced-motion:reduce){.teeth rect{animation:none}html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+ <a class="logo" href="#top" aria-label="LikeDent"><i><svg viewBox="0 0 24 24"><path d="M12 21s-8-5.2-8-11a4.6 4.6 0 0 1 8-3 4.6 4.6 0 0 1 8 3c0 5.800-8 11-8 11z"/></svg></i>LikeDent</a>
+ <nav><a href="#services">Послуги</a><a href="#why">Про клініку</a><a href="#reviews">Відгуки</a><a href="#contact">Контакти</a></nav>
+ <a class="btn" href="tel:+380971100803">097 110 0803</a>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+ <div>
+  <span class="pill"><span class="dot" id="dot"></span><span id="status">Запис за телефоном</span></span>
+  <h1>Усмішка, яку хочеться лайкнути</h1>
+  <p class="lead">Лікуємо, відновлюємо та доглядаємо за зубами у Львові на Хімічній. Спокійно пояснюємо кожен крок і робимо так, щоб ви не помітили, як закінчився візит.</p>
+  <div class="cta"><a class="btn" href="#contact">Записатися на огляд</a><a class="btn ghost" href="#services">Що ми лікуємо</a></div>
+ </div>
+ <div class="smile" role="img" aria-label="Ілюстрація усмішки">
+  <svg viewBox="0 0 300 220" aria-hidden="true">
+   <defs><clipPath id="m"><path d="M18 62C70 40 230 40 282 62 268 140 220 190 150 190 80 190 32 140 18 62Z"/></clipPath></defs>
+   <path d="M18 62C70 40 230 40 282 62 268 140 220 190 150 190 80 190 32 140 18 62Z" fill="#0C2F36"/>
+   <g clip-path="url(#m)" class="teeth" fill="#fff">
+    <rect x="34" y="56" width="30" height="46" rx="10" style="animation-delay:.1s"/><rect x="66" y="56" width="30" height="50" rx="10" style="animation-delay:.18s"/><rect x="98" y="56" width="30" height="54" rx="10" style="animation-delay:.26s"/><rect x="130" y="56" width="40" height="58" rx="12" style="animation-delay:.34s"/><rect x="172" y="56" width="30" height="54" rx="10" style="animation-delay:.42s"/><rect x="204" y="56" width="30" height="50" rx="10" style="animation-delay:.5s"/><rect x="236" y="56" width="30" height="46" rx="10" style="animation-delay:.58s"/>
+   </g>
+   <path d="M60 150C100 178 200 178 240 150" fill="none" stroke="#2fb6c0" stroke-width="10" stroke-linecap="round" opacity=".55" clip-path="url(#m)"/>
+   <path d="M255 18l5 12 12 5-12 5-5 12-5-12-12-5 12-5z" fill="#FFD166"/>
+  </svg>
+  <div class="chip c2"><span class="stars">★★★★★</span><b>4,7</b>18 відгуків у Google</div>
+  <div class="chip c1">Хімічна, 22<br>Львів</div>
+ </div>
+</div></div>
+
+<section id="services"><div class="wrap">
+ <div class="sec-h"><h2>Від планового огляду до відновлення зуба</h2><p>Основні напрями, з якими до нас звертаються. Деталі та вартість лікар назве після огляду.</p></div>
+ <ul class="svc">
+  <li><div class="ic"><svg viewBox="0 0 24 24"><path d="M7 3c-2.500 0-4 2-4 4.500 0 2 1 3.500 1.500 6C5 16 5.500 21 7.500 21c1.500 0 1.500-4 4.500-4s3 4 4.500 4c2 0 2.500-5 3-7.500.5-2.500 1.500-4 1.500-6C21 5 19.500 3 17 3c-2 0-3 1-5 1S9 3 7 3z"/></svg></div><h3>Лікування зубів</h3><p>Терапія, пломбування та лікування каналів із акцентом на збереження власного зуба.</p></li>
+  <li><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3l1.800 4.700L18.500 9.500 13.800 11.300 12 16l-1.800-4.700L5.500 9.500l4.700-1.800zM19 15l.8 2.200L22 18l-2.200.8L19 21l-.8-2.200L16 18l2.200-.8z"/></svg></div><h3>Гігієна та відбілювання</h3><p>Професійне чищення, догляд за яснами й світліша усмішка без шкоди для емалі.</p></li>
+  <li><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 9h16v3a8 8 0 0 1-16 0zM8 9V6M12 9V4M16 9V6"/></svg></div><h3>Протезування</h3><p>Коронки та відновлення зубного ряду, щоб жувати комфортно, а виглядало природно.</p></li>
+  <li><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v18M8 7l4-4 4 4M7 21h10"/></svg></div><h3>Хірургія</h3><p>Видалення та хірургічні втручання з поясненням кожного етапу і реабілітації.</p></li>
+  <li><div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 14c1.200 1.800 6.800 1.800 8 0M9 9.500h.01M15 9.500h.01"/></svg></div><h3>Консультація та план лікування</h3><p>Огляд, діагностика і зрозумілий план, щоб ви знали, що робимо спочатку, а що можна відкласти.</p></li>
+ </ul>
+</div></section>
+
+<section id="why" style="padding-top:0"><div class="wrap">
+ <div class="band">
+  <div><div class="big">4,7</div><small>середня оцінка пацієнтів<br>на основі 18 відгуків у Google</small></div>
+  <ul>
+   <li>Лікар пояснює кожен крок</li><li>Уважне, спокійне ставлення</li>
+   <li>Швидке лікування кількох зубів за візит</li><li>Адреса у Львові: Хімічна, 22</li>
+  </ul>
+ </div>
+</div></section>
+
+<section id="reviews" style="padding-top:0"><div class="wrap">
+ <div class="sec-h"><h2>Пацієнти кажуть</h2><p>Відгуки з Google Maps.</p></div>
+ <div class="rev">
+  <blockquote><span class="stars">★★★★★</span><p>Завжди трохи боялася стоматологів, але тут усе пройшло настільки спокійно й комфортно, що навіть не помітила, як закінчилося лікування.</p><cite>Марія Ханащак</cite></blockquote>
+  <blockquote><span class="stars">★★★★★</span><p>Дякую Юрію Анатолійовичу за професіоналізм, уважність і якісне лікування. Дуже швидко запломбував декілька зубів.</p><cite>Наталя Мальована</cite></blockquote>
+ </div>
+</div></section>
+
+<section id="contact" style="padding-top:0"><div class="wrap">
+ <div class="sec-h"><h2>Запишіться на огляд</h2><p>Залиште номер, і адміністратор передзвонить, або зателефонуйте самі.</p></div>
+ <div class="contact">
+  <div class="box">
+   <div class="row"><span>Адреса</span><div>вулиця Хімічна, 22,<br>Львів, 79058</div></div>
+   <div class="row"><span>Телефон</span><a href="tel:+380971100803">097 110 0803</a></div>
+   <div class="row"><span>Графік</span><div id="hrs">Відчиняємось у понеділок о 09:00</div></div>
+   <div class="row"><span>Plus Code</span><div>V23F+PC Львів</div></div>
+   <a class="map" href="https://www.google.com/maps/search/?api=1&query=%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A5%D1%96%D0%BC%D1%96%D1%87%D0%BD%D0%B0+22+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2" target="_blank" rel="noopener" aria-label="Відкрити в Google Maps">
+    <svg viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><g fill="none" stroke="var(--line)" stroke-width="10"><path d="M-10 110L180 70 410 120"/><path d="M90 -10L130 160M290 -10L240 160"/></g><g fill="none" stroke="var(--card)" stroke-width="4"><path d="M-10 40L410 20M-10 140L410 150"/></g><circle cx="205" cy="68" r="22" fill="#0A7B86" opacity=".18"/><path d="M205 84s-14-12-14-23a14 14 0 0 1 28 0c0 11-14 23-14 23z" fill="#0A7B86"/><circle cx="205" cy="61" r="5" fill="#fff"/></svg>
+    <em>Відкрити на карті</em></a>
+  </div>
+  <div class="box">
+   <h3 style="font-size:22px">Заявка на візит</h3>
+   <form id="f">
+    <label>Ім’я<input name="n" required autocomplete="name" placeholder="Як до вас звертатися"></label>
+    <label>Телефон<input name="p" type="tel" required autocomplete="tel" placeholder="097 000 0000"></label>
+    <label>Що турбує<select><option>Огляд і консультація</option><option>Біль або чутливість</option><option>Гігієна / відбілювання</option><option>Протезування</option><option>Інше</option></select></label>
+    <button class="btn" type="submit">Залишити заявку</button>
+    <div class="ok" id="ok" role="status">Дякуємо! Ми передзвонимо вам найближчим часом.</div>
+   </form>
+  </div>
+ </div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span>© <span id="y">2026</span> Стоматологія LikeDent · вул. Хімічна, 22, Львів</span><span>Демо-версія сайту</span></div></footer>
+<a class="btn fab" href="tel:+380971100803">Зателефонувати: 097 110 0803</a>
+
+<script>
+(function(){
+ try{
+  var d=new Date(new Date().toLocaleString('en-US',{timeZone:'Europe/Kyiv'}));
+  var sun=d.getDay()===0, s=document.getElementById('status'), dot=document.getElementById('dot');
+  if(sun){s.textContent='Сьогодні зачинено · відчиняємось у понеділок о 09:00'}
+  else{s.textContent='Запис за телефоном 097 110 0803';dot.className='dot on'}
+  document.getElementById('y').textContent=d.getFullYear();
+ }catch(e){}
+ document.getElementById('f').addEventListener('submit',function(e){
+  e.preventDefault();
+  document.getElementById('ok').style.display='block';
+  this.querySelector('button').style.display='none';
+ });
+})();
+</script>
+</body>
+</html>
